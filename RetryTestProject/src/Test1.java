@@ -16,7 +16,7 @@ public class Test1 {
 		driver.manage().window().maximize();
 		driver.get("https://Amazon.com");
 		Thread.sleep(1000);
-		Assert.assertTrue(driver.getTitle().contains("AAA"));
+		Assert.assertTrue(driver.getTitle().contains("Amazon"));
 		Thread.sleep(1000);
 		driver.quit();
 		}
