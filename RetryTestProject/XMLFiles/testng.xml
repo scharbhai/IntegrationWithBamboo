@@ -6,7 +6,7 @@
   </listeners>
   <test name="Retry">
     <classes>
-            <class name="Test2"/>
+            <class name="Test1"/>
     </classes>
   </test>
   
