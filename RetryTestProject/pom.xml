@@ -13,7 +13,7 @@
           <source>1.8</source>
           <target>1.8</target>
         </configuration>
-        
+     
         
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
@@ -54,7 +54,7 @@
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
-      
+       
     </plugins>
   </build>
 </project>
