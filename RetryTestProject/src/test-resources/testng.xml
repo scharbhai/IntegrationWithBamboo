@@ -4,10 +4,11 @@
 <listeners>
         <listener class-name="AnnotationTransformer"/>
   </listeners>
-  <test name="Retry">
+  <test thread-count="5" name="Test">
     <classes>
-            <class name="Test1"/>
+      <class name="Test1"/>
+      
     </classes>
-  </test>
-  
+  </test> <!-- Test -->
 </suite> <!-- Suite -->
+
