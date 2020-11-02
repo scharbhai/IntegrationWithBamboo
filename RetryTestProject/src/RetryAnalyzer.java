@@ -24,15 +24,7 @@ public class RetryAnalyzer implements IRetryAnalyzer {
         return false;
     }
     
-    @AfterMethod(enabled=false)
-    public void afterMethod(ITestResult result) {
-        IRetryAnalyzer retry = result.getMethod().getRetryAnalyzer();
-        if (retry == null) {
-            return;
-        }
-        result.getTestContext().getFailedTests().removeResult(result.getMethod());
-        result.getTestContext().getSkippedTests().removeResult(result.getMethod());
-    }
+  
  
 }
 

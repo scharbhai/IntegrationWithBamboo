@@ -14,9 +14,9 @@ public class Test1 {
 		System.setProperty("webdriver.chrome.driver", "D://Selenium_LatestLib//chromedriver_win32//chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://Amazon.com");
+		driver.get("https://www.lntinfotech.com/");
 		Thread.sleep(1000);
-		Assert.assertTrue(driver.getTitle().contains("Amazon"));
+		Assert.assertTrue(driver.getTitle().contains("lti"));
 		Thread.sleep(1000);
 		driver.quit();
 		}
