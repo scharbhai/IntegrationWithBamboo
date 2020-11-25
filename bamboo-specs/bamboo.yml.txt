@@ -1,8 +1,8 @@
 version: 2
 plan:
-  project-key: DEMO
+  project-key: TES
   key: PLAN
-  name: Plan2
+  name: My Plan
 
 stages:
   - Stage 1:
