@@ -1,6 +1,8 @@
+/*
+ * Retry test
+ */
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
-import org.testng.annotations.AfterMethod;
 
 public class RetryAnalyzer implements IRetryAnalyzer {
 	private int count = 0;
@@ -24,7 +26,5 @@ public class RetryAnalyzer implements IRetryAnalyzer {
         return false;
     }
     
-  
- 
 }
 
